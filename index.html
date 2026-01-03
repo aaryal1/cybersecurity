@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>CISSP CBK Course</title>
+  <link rel="stylesheet" href="assets/css/styles.css"/>
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">
+    <div class="brand-title" id="courseTitle">Loading…</div>
+    <div class="brand-subtitle" id="courseMeta"></div>
+  </div>
+  <nav class="nav">
+    <a class="nav-link active" href="index.html">Home</a>
+    <a class="nav-link" href="weekly-schedule.html">Weekly Schedule</a>
+    <a class="nav-link" href="editor.html">Content Editor</a>
+    <a class="nav-link" href="outline-manager.html">Outline Manager</a>
+  </nav>
+</header>
+
+<main class="container">
+  <section class="hero">
+    <div class="pill" id="currentWeekPill">Current Week</div>
+    <h1 id="weekTopic">Loading…</h1>
+    <p class="muted" id="weekDescription"></p>
+  </section>
+
+  <section class="grid-wrap">
+    <div class="section-head">
+      <h2>This Week’s Tiles</h2>
+      <div class="muted" id="tileCount"></div>
+    </div>
+    <div class="grid" id="tileGrid"></div>
+  </section>
+
+  <section class="card">
+    <h2>Deliverables</h2>
+    <ul id="deliverablesList" class="list"></ul>
+  </section>
+</main>
+
+<script src="assets/js/app.js"></script>
+</body>
+</html>
