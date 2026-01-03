@@ -1,0 +1,10 @@
+cissp-course/
+  index.html
+  weekly-schedule.html
+  editor.html
+  outline-manager.html
+  data/
+    course.json
+  assets/
+    css/styles.css
+    js/app.js
