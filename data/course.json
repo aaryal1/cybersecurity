@@ -1,0 +1,242 @@
+{
+  "course": {
+    "title": "CISSP CBK Course",
+    "subtitle": "Interactive Weekly Lessons, Activities, and Deliverables",
+    "code": "CISSP-CBK",
+    "term": "Spring 2026",
+    "instructor": "Instructor Name"
+  },
+  "settings": {
+    "currentWeek": 1
+  },
+  "weeks": [
+    {
+      "week": 1,
+      "topic": "Course Orientation + CISSP Overview",
+      "description": "Course logistics, exam structure, study strategy, and baseline assessment.",
+      "deliverables": [
+        "Diagnostic quiz",
+        "Study plan submission"
+      ],
+      "lessons": [
+        { "title": "CISSP exam structure & CBK domains", "minutes": 25 },
+        { "title": "Study strategy: active recall, spaced repetition, practice questions", "minutes": 25 }
+      ],
+      "activities": [
+        { "title": "Baseline risk scenario discussion", "minutes": 20 },
+        { "title": "Create personal study cadence (weekly goals)", "minutes": 20 }
+      ],
+      "resources": [
+        { "label": "CBK domains outline (course handout)", "url": "#" }
+      ],
+      "tiles": [
+        { "title": "Exam Strategy", "type": "lesson", "summary": "How to approach CISSP questions and pacing." },
+        { "title": "Study Plan Template", "type": "resource", "summary": "Weekly goals and milestones." }
+      ]
+    },
+    {
+      "week": 2,
+      "topic": "Domain 1: Security and Risk Management",
+      "description": "Governance, risk, compliance, ethics, BCP/DR fundamentals.",
+      "deliverables": [
+        "Risk register mini-assignment",
+        "BCP/DR tabletop summary"
+      ],
+      "lessons": [
+        { "title": "CIA triad and security governance", "minutes": 35 },
+        { "title": "Risk management lifecycle + compliance + ethics", "minutes": 35 }
+      ],
+      "activities": [
+        { "title": "Threat modeling walkthrough (high level)", "minutes": 25 },
+        { "title": "BCP vs DRP scenario mapping", "minutes": 20 }
+      ],
+      "resources": [
+        { "label": "Risk register template", "url": "#" }
+      ],
+      "tiles": [
+        { "title": "CIA + Governance", "type": "lesson", "summary": "Core principles and decision structures." },
+        { "title": "Risk Concepts", "type": "lesson", "summary": "Qualitative vs quantitative, treatment options." },
+        { "title": "BCP/DRP", "type": "lesson", "summary": "Resilience planning essentials." }
+      ]
+    },
+    {
+      "week": 3,
+      "topic": "Domain 2: Asset Security",
+      "description": "Classification, ownership, lifecycle, privacy, retention and destruction.",
+      "deliverables": [
+        "Data classification exercise",
+        "Retention & disposal policy draft"
+      ],
+      "lessons": [
+        { "title": "Data classification and handling requirements", "minutes": 40 },
+        { "title": "Data lifecycle + retention + privacy principles", "minutes": 30 }
+      ],
+      "activities": [
+        { "title": "Classification workshop with sample artifacts", "minutes": 30 }
+      ],
+      "resources": [
+        { "label": "Sample data handling matrix", "url": "#" }
+      ],
+      "tiles": [
+        { "title": "Classification", "type": "lesson", "summary": "Labels, owners, custodians, controls." },
+        { "title": "Lifecycle", "type": "lesson", "summary": "Create → store → use → share → archive → destroy." }
+      ]
+    },
+    {
+      "week": 4,
+      "topic": "Domain 3: Security Architecture and Engineering",
+      "description": "Secure design principles, models, crypto concepts, physical and platform security.",
+      "deliverables": [
+        "Security model comparison (short write-up)"
+      ],
+      "lessons": [
+        { "title": "Secure design principles + architecture thinking", "minutes": 40 },
+        { "title": "Security models + cryptography fundamentals", "minutes": 40 }
+      ],
+      "activities": [
+        { "title": "Design review: identify architectural risks", "minutes": 25 }
+      ],
+      "resources": [
+        { "label": "Security models reference sheet", "url": "#" }
+      ],
+      "tiles": [
+        { "title": "Design Principles", "type": "lesson", "summary": "Least privilege, defense in depth, fail-safe defaults." },
+        { "title": "Crypto Basics", "type": "lesson", "summary": "Symmetric/asymmetric, hashing, PKI." }
+      ]
+    },
+    {
+      "week": 5,
+      "topic": "Domain 4: Communication and Network Security",
+      "description": "Network architecture, secure channels, protocols, segmentation, wireless security.",
+      "deliverables": [
+        "Network segmentation diagram",
+        "Attack surface notes"
+      ],
+      "lessons": [
+        { "title": "Network design + segmentation + secure protocols", "minutes": 45 },
+        { "title": "Wireless risks + monitoring fundamentals", "minutes": 30 }
+      ],
+      "activities": [
+        { "title": "Protocol threat mapping (common services)", "minutes": 25 }
+      ],
+      "resources": [
+        { "label": "Segmentation patterns cheat sheet", "url": "#" }
+      ],
+      "tiles": [
+        { "title": "Secure Channels", "type": "lesson", "summary": "TLS/VPN concepts, trust boundaries." },
+        { "title": "Wireless", "type": "lesson", "summary": "Threats and baseline controls." }
+      ]
+    },
+    {
+      "week": 6,
+      "topic": "Domain 5: Identity and Access Management (IAM)",
+      "description": "AuthN/AuthZ, access control models, identity lifecycle, SSO/federation, PAM.",
+      "deliverables": [
+        "IAM control mapping assignment"
+      ],
+      "lessons": [
+        { "title": "Identification, authentication, authorization, accounting", "minutes": 40 },
+        { "title": "Access control models + IAM lifecycle + federation", "minutes": 40 }
+      ],
+      "activities": [
+        { "title": "Role engineering mini-workshop", "minutes": 25 }
+      ],
+      "resources": [
+        { "label": "IAM glossary", "url": "#" }
+      ],
+      "tiles": [
+        { "title": "Access Control Models", "type": "lesson", "summary": "DAC/MAC/RBAC/ABAC and use-cases." },
+        { "title": "SSO & Federation", "type": "lesson", "summary": "Concepts and common pitfalls." }
+      ]
+    },
+    {
+      "week": 7,
+      "topic": "Domain 6: Security Assessment and Testing",
+      "description": "Vulnerability assessment, testing strategies, audits, metrics, reporting.",
+      "deliverables": [
+        "Assessment plan outline",
+        "Metrics dashboard draft"
+      ],
+      "lessons": [
+        { "title": "Assessment strategy + audits + evidence", "minutes": 45 },
+        { "title": "Vuln assessment vs pen test + interpreting results", "minutes": 35 }
+      ],
+      "activities": [
+        { "title": "Findings triage & risk rating exercise", "minutes": 25 }
+      ],
+      "resources": [
+        { "label": "Sample assessment report structure", "url": "#" }
+      ],
+      "tiles": [
+        { "title": "Testing Strategy", "type": "lesson", "summary": "What to test, when, and how to report." }
+      ]
+    },
+    {
+      "week": 8,
+      "topic": "Domain 7: Security Operations",
+      "description": "Incident response, monitoring, change/config management, forensics basics, SOC.",
+      "deliverables": [
+        "IR runbook mini-draft",
+        "Log review notes"
+      ],
+      "lessons": [
+        { "title": "Security operations processes + monitoring", "minutes": 45 },
+        { "title": "Incident response lifecycle + forensics basics", "minutes": 45 }
+      ],
+      "activities": [
+        { "title": "Incident tabletop: containment and comms", "minutes": 25 }
+      ],
+      "resources": [
+        { "label": "Incident response checklist", "url": "#" }
+      ],
+      "tiles": [
+        { "title": "Incident Response", "type": "lesson", "summary": "Preparation through lessons learned." },
+        { "title": "SOC Basics", "type": "lesson", "summary": "Monitoring, alerting, escalation." }
+      ]
+    },
+    {
+      "week": 9,
+      "topic": "Domain 8: Software Development Security",
+      "description": "Secure SDLC, threat modeling, secure coding, testing, DevSecOps concepts.",
+      "deliverables": [
+        "Threat model (basic) for sample app",
+        "Secure SDLC checklist"
+      ],
+      "lessons": [
+        { "title": "Secure SDLC + dev environment security", "minutes": 45 },
+        { "title": "App vulnerabilities + testing + DevSecOps", "minutes": 45 }
+      ],
+      "activities": [
+        { "title": "Abuse case brainstorming + mitigations", "minutes": 25 }
+      ],
+      "resources": [
+        { "label": "OWASP Top 10 overview (link placeholder)", "url": "#" }
+      ],
+      "tiles": [
+        { "title": "Secure SDLC", "type": "lesson", "summary": "Integrating controls into each phase." }
+      ]
+    },
+    {
+      "week": 10,
+      "topic": "Review + Capstone",
+      "description": "Integrated scenarios across domains; final review and exam readiness.",
+      "deliverables": [
+        "Capstone scenario write-up",
+        "Final practice set reflection"
+      ],
+      "lessons": [
+        { "title": "Cross-domain scenario synthesis", "minutes": 45 },
+        { "title": "Exam readiness: weak-area plan", "minutes": 30 }
+      ],
+      "activities": [
+        { "title": "Full-domain review game / rapid-fire Q&A", "minutes": 30 }
+      ],
+      "resources": [
+        { "label": "Capstone prompt", "url": "#" }
+      ],
+      "tiles": [
+        { "title": "Capstone Scenario", "type": "activity", "summary": "Apply governance, architecture, ops, and SDLC security." }
+      ]
+    }
+  ]
+}
